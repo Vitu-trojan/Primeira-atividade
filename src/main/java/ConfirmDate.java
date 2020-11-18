@@ -12,6 +12,8 @@ public class ConfirmDate {
         Scanner data = new Scanner(System.in);
         System.out.println("Digite o ano do seu nascimento:");
 
+        //rubens passou aqui
+
         int year = data.nextInt();
         int ynow = now - year;
         if (ynow<18){
